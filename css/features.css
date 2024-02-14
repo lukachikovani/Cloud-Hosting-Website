@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Head */
+.features-head img {
+    width: 200px;
+    justify-self: flex-end;
+}
+
+/* Sub Head */
+.features-sub-head img {
+    width: 300px;
+    justify-self: flex-end;
+}
+
+.features-sub-head p {
+    font-family: 'Lato', sans-serif; 
+}
+
+/* Main */
+.features-main .card > i {
+    margin-right: 20px;
+}
+
+.fetures-main .grid {
+    padding: 30px;
+}
+
+.features-main .grid >*:first-child {
+    grid-column: 1 / span 3;
+}
+
+.features-main .grid >*:nth-child(2) {
+    grid-column: 1 / span 2;
+}
+
